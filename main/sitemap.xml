@@ -81,12 +81,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://gethomepage.dev/main/more/development/</loc>
+         <loc>https://gethomepage.dev/main/more/homepage-move/</loc>
          <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://gethomepage.dev/main/more/homepage-move/</loc>
+         <loc>https://gethomepage.dev/main/more/sponsors/</loc>
          <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -117,6 +117,11 @@
     </url>
     <url>
          <loc>https://gethomepage.dev/main/widgets/authoring/component/</loc>
+         <lastmod>2024-06-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://gethomepage.dev/main/widgets/authoring/getting-started/</loc>
          <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
