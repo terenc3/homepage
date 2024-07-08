@@ -5963,7 +5963,7 @@
 </span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">  </span><span class="nt">app</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">emby</span><span class="w"> </span><span class="c1"># The name of the deployed app</span>
 </span></code></pre></div>
 <p>The <code>app</code> field is used to create a label selector, in this example case it would match pods with the label: <code>app.kubernetes.io/name=emby</code>.</p>
-<p>Sometimes this is insufficient for complex or atypical application deployments. In these cases, the <code>pod-selector</code> field can be used. Any field selector can be used with it, so it allows for some very powerful selection capabilities.</p>
+<p>Sometimes this is insufficient for complex or atypical application deployments. In these cases, the <code>podSelector</code> field can be used. Any field selector can be used with it, so it allows for some very powerful selection capabilities.</p>
 <p>For instance, it can be utilized to roll multiple underlying deployments under one application to see a high-level aggregate:</p>
 <div class="language-yaml highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">Element Chat</span><span class="p">:</span>
 </span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="nt">icon</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">matrix-light.png</span>
@@ -5971,7 +5971,7 @@
 </span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Matrix Synapse Powered Chat</span>
 </span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">    </span><span class="nt">app</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">matrix-element</span>
 </span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">    </span><span class="nt">namespace</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">comms</span>
-</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">    </span><span class="nt">pod-selector</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">&gt;-</span>
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">    </span><span class="nt">podSelector</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">&gt;-</span>
 </span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">      </span><span class="no">app.kubernetes.io/instance in (</span>
 </span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">          </span><span class="no">matrix-element,</span>
 </span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="w">          </span><span class="no">matrix-media-repo,</span>
@@ -5981,7 +5981,7 @@
 </span></code></pre></div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>A blank string as a pod-selector does not deactivate it, but will actually select all pods in the namespace. This is a useful way to capture the resource usage of a complex application siloed to a single namespace, like Longhorn.</p>
+<p>A blank string as a podSelector does not deactivate it, but will actually select all pods in the namespace. This is a useful way to capture the resource usage of a complex application siloed to a single namespace, like Longhorn.</p>
 </div>
 <h2 id="automatic-service-discovery">Automatic Service Discovery</h2>
 <p>Homepage features automatic service discovery by Ingress annotations. All configuration options can be applied using typical annotation syntax, beginning with <code>gethomepage.dev/</code>.</p>
