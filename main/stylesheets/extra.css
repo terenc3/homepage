@@ -228,7 +228,7 @@ body[data-md-color-scheme="default"] {
 }
 
 .md-search__scrollwrap {
-  background-color: hsla(0, 0%, 0%, 0.3);
+  background-color: hsla(0, 0%, 0%, 0.8);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
 }
