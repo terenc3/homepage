@@ -5815,7 +5815,10 @@
 <p><em>(Find the Unifi Controller service widget <a href="../../services/unifi-controller/">here</a>)</em></p>
 <p>You can display general connectivity status from your Unifi (Network) Controller. When authenticating you will want to use a local account that has at least read privileges.</p>
 <p>An optional 'site' parameter can be supplied, if it is not the widget will use the default site for the controller.</p>
-<p><em>Note: If you enter e.g. incorrect credentials and receive an "API Error", you may need to recreate the container to clear the cache.</em></p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>If you enter e.g. incorrect credentials and receive an "API Error", you may need to recreate the container to clear the cache.</p>
+</div>
 <p><img width="162" alt="unifi_infowidget" src="https://user-images.githubusercontent.com/4887959/197706832-f5a8706b-7282-4892-a666-b7d999752562.png"></p>
 <div class="language-yaml highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">unifi_console</span><span class="p">:</span>
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://unifi.host.or.ip:port</span>
