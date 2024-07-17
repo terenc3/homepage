@@ -6,17 +6,17 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="FreshRSS Widget Configuration">
+        <meta name="description" content="Frigate Widget Configuration">
       
       
       
-        <link rel="canonical" href="https://gethomepage.dev/main/widgets/services/freshrss/">
+        <link rel="canonical" href="https://gethomepage.dev/main/widgets/services/frigate/">
       
       
-        <link rel="prev" href="../flood/">
+        <link rel="prev" href="../freshrss/">
       
       
-        <link rel="next" href="../frigate/">
+        <link rel="next" href="../fritzbox/">
       
       
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>FreshRSS - Homepage</title>
+        <title>Frigate - Homepage</title>
       
     
     
@@ -63,17 +63,17 @@
     
   
 <meta property="og:type" content="website" />
-<meta property="og:title" content="FreshRSS - Homepage" />
-<meta property="og:description" content="FreshRSS Widget Configuration" />
-<meta property="og:image" content="https://gethomepage.dev/main/assets/images/social/widgets/services/freshrss.png" />
+<meta property="og:title" content="Frigate - Homepage" />
+<meta property="og:description" content="Frigate Widget Configuration" />
+<meta property="og:image" content="https://gethomepage.dev/main/assets/images/social/widgets/services/frigate.png" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
-<meta property="og:url" content="https://gethomepage.dev/main/widgets/services/freshrss/" />
+<meta property="og:url" content="https://gethomepage.dev/main/widgets/services/frigate/" />
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:title" content="FreshRSS - Homepage" />
-<meta property="twitter:description" content="FreshRSS Widget Configuration" />
-<meta property="twitter:image" content="https://gethomepage.dev/main/assets/images/social/widgets/services/freshrss.png" />
+<meta property="twitter:title" content="Frigate - Homepage" />
+<meta property="twitter:description" content="Frigate Widget Configuration" />
+<meta property="twitter:image" content="https://gethomepage.dev/main/assets/images/social/widgets/services/frigate.png" />
 </head>
   
   
@@ -126,7 +126,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              FreshRSS
+              Frigate
             
           </span>
         </div>
@@ -2030,6 +2030,33 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../freshrss/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    
+  
+    FreshRSS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -2046,34 +2073,6 @@
   <span class="md-ellipsis">
     
   
-    FreshRSS
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../frigate/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    
-  
     Frigate
   
 
@@ -2083,6 +2082,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -5802,7 +5802,7 @@
 
 
   
-    <a href="https://github.com/gethomepage/homepage/tree/main/docs/widgets/services/freshrss.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/gethomepage/homepage/tree/main/docs/widgets/services/frigate.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -5810,16 +5810,15 @@
   
 
 
-  <h1>FreshRSS</h1>
+  <h1>Frigate</h1>
 
-<p>Learn more about <a href="https://github.com/FreshRSS/FreshRSS">FreshRSS</a>.</p>
-<p>Please refer to <a href="https://freshrss.github.io/FreshRSS/en/users/06_Mobile_access.html#enable-the-api-in-freshrss">Enable the API in FreshRSS</a> for the "API password" to be entered in the password field.</p>
-<p>Allowed fields: <code>["subscriptions", "unread"]</code>.</p>
+<p>Learn more about <a href="https://frigate.video/">Frigate</a>.</p>
+<p>Allowed fields: <code>["cameras", "uptime", "version"]</code>.</p>
+<p>A recent event listing is disabled by default, but can be enabled with the <code>enableRecentEvents</code> option.</p>
 <div class="language-yaml highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nt">widget</span><span class="p">:</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">freshrss</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">http://freshrss.host.or.ip:port</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">  </span><span class="nt">username</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">username</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">  </span><span class="nt">password</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">password</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">frigate</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">  </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">http://frigate.host.or.ip:port</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">  </span><span class="nt">enableRecentEvents</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span><span class="w"> </span><span class="c1"># Optional, defaults to false</span>
 </span></code></pre></div>
 
 
