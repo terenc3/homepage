@@ -905,5 +905,10 @@
         "cameras": "Cameras",
         "uptime": "Oppetid",
         "version": "Version"
+    },
+    "linkwarden": {
+        "links": "Links",
+        "collections": "Collections",
+        "tags": "Tags"
     }
 }

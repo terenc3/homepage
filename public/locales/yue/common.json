@@ -905,5 +905,10 @@
         "cameras": "Cameras",
         "uptime": "運行時間",
         "version": "版本"
+    },
+    "linkwarden": {
+        "links": "Links",
+        "collections": "Collections",
+        "tags": "標籤"
     }
 }

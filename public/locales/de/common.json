@@ -902,8 +902,13 @@
         "invalidConfiguration": "Ungültige Konfiguration"
     },
     "frigate": {
-        "cameras": "Cameras",
+        "cameras": "Kameras",
         "uptime": "Betriebszeit",
         "version": "Version"
+    },
+    "linkwarden": {
+        "links": "Links",
+        "collections": "Sammlungen",
+        "tags": "Schlagwörter"
     }
 }

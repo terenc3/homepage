@@ -905,5 +905,10 @@
         "cameras": "Cameras",
         "uptime": "Χρόνος Λειτουργίας",
         "version": "Έκδοση"
+    },
+    "linkwarden": {
+        "links": "Links",
+        "collections": "Collections",
+        "tags": "Ετικέτες"
     }
 }

@@ -905,5 +905,10 @@
         "cameras": "Cameras",
         "uptime": "Vrijeme rada",
         "version": "Verzija"
+    },
+    "linkwarden": {
+        "links": "Links",
+        "collections": "Collections",
+        "tags": "Oznake"
     }
 }

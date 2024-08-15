@@ -902,8 +902,13 @@
         "invalidConfiguration": "Ongeldige opstelling"
     },
     "frigate": {
-        "cameras": "Cameras",
+        "cameras": "Kameras",
         "uptime": "Optyd",
         "version": "Weergawe"
+    },
+    "linkwarden": {
+        "links": "Links",
+        "collections": "Collections",
+        "tags": "Merkers"
     }
 }

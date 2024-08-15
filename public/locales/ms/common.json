@@ -905,5 +905,10 @@
         "cameras": "Cameras",
         "uptime": "Masa Hidup",
         "version": "Versi"
+    },
+    "linkwarden": {
+        "links": "Links",
+        "collections": "Collections",
+        "tags": "Tanda nama"
     }
 }

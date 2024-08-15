@@ -905,5 +905,10 @@
         "cameras": "Cameras",
         "uptime": "Çalışma Süresi",
         "version": "Versiyon"
+    },
+    "linkwarden": {
+        "links": "Links",
+        "collections": "Collections",
+        "tags": "Etiketler"
     }
 }

@@ -905,5 +905,10 @@
         "cameras": "Cameras",
         "uptime": "Prevádzka",
         "version": "Verzia"
+    },
+    "linkwarden": {
+        "links": "Links",
+        "collections": "Collections",
+        "tags": "Štítky"
     }
 }

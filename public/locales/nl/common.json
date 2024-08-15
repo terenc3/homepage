@@ -905,5 +905,10 @@
         "cameras": "Cameras",
         "uptime": "Online",
         "version": "Versie"
+    },
+    "linkwarden": {
+        "links": "Links",
+        "collections": "Collections",
+        "tags": "Label"
     }
 }

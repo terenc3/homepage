@@ -902,8 +902,13 @@
         "invalidConfiguration": "Neveljavna konfiguracija"
     },
     "frigate": {
-        "cameras": "Cameras",
+        "cameras": "Kamere",
         "uptime": "Čas delovanja",
         "version": "Verzija"
+    },
+    "linkwarden": {
+        "links": "Links",
+        "collections": "Collections",
+        "tags": "Značke"
     }
 }

@@ -902,8 +902,13 @@
         "invalidConfiguration": "Configuració no vàlida"
     },
     "frigate": {
-        "cameras": "Cameras",
+        "cameras": "Càmeres",
         "uptime": "Temps actiu",
         "version": "Versió"
+    },
+    "linkwarden": {
+        "links": "Links",
+        "collections": "Collections",
+        "tags": "Etiquetes"
     }
 }

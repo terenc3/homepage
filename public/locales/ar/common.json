@@ -905,5 +905,10 @@
         "cameras": "Cameras",
         "uptime": "مدة التشغيل",
         "version": "الإصدار"
+    },
+    "linkwarden": {
+        "links": "Links",
+        "collections": "Collections",
+        "tags": "التصنيفات"
     }
 }

@@ -905,5 +905,10 @@
         "cameras": "Cameras",
         "uptime": "Üzemidő",
         "version": "Verzió"
+    },
+    "linkwarden": {
+        "links": "Links",
+        "collections": "Collections",
+        "tags": "Címkék"
     }
 }

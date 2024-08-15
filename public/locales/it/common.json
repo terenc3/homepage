@@ -905,5 +905,10 @@
         "cameras": "Cameras",
         "uptime": "Tempo di attività",
         "version": "Versione"
+    },
+    "linkwarden": {
+        "links": "Links",
+        "collections": "Collections",
+        "tags": "Tag"
     }
 }
